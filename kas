@@ -1,7 +1,105 @@
-holld的
-的
-卡斯的
-oubgtuh的
-的
-yyyy的
-的b
+#include  <stdio.h>
+
+struct datatype1     
+
+{
+
+   char   b; 	
+
+   int   a;
+
+   char   c;
+
+};
+
+struct datatype2     
+
+{
+
+   char   b; 	
+
+   short   a;
+
+   char   c;
+
+};
+
+struct datatype3     
+
+{
+
+   char   b; 
+
+   char   c;
+
+   int   a;
+
+};
+
+struct stu
+
+{
+
+int num;
+
+char name[20];
+
+char sex;
+
+float score;
+
+};
+
+struct date
+
+{
+
+int year;
+
+int month;
+
+int day;
+
+};
+
+struct student
+
+{
+
+int num;
+
+char name[20];
+
+char sex;
+
+struct date birth;
+
+float score;
+
+};
+
+int main()
+
+{
+
+    /*****输出上述六种结构体类型所占字节数*****/
+
+    /********** Begin **********/
+
+   printf("1:%d\n",sizeof(struct datatype1));
+
+   printf("2:%d\n",sizeof(struct datatype2));
+
+   printf("3:%d\n",sizeof(struct datatype3));
+
+   printf("4:%d\n",sizeof(struct stu));
+
+   printf("5:%d\n",sizeof(struct date));
+
+   printf("6:%d\n",sizeof(struct student));
+
+    /********** End **********/
+
+     return 0;
+
+}的
